@@ -5,7 +5,14 @@ export default async function Home() {
   const entries = await client.getEntries();
 
   return (
-    <div className="font-[family-name:var(--font-geist-sans)] h-screen flex flex-col">
+    <div className="font-[family-name:var(--font-geist-sans)] h-screen flex flex-col relative">
+      <Image
+        src="/value-prop.png"
+        alt="logo"
+        width={150}
+        height={150}
+        className="absolute right-40 top-40"
+      />
       <div className="flex flex-col items-center mx-50 pt-10 border-orange-300 border-dashed">
         <div className="px-20 border-dashed border-amber-200 h-full max-w-2xl flex flex-col gap-4 items-center">
           <div className="inline-block p-2 bg-white rounded-xs shadow-xs">
