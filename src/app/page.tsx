@@ -9,8 +9,8 @@ export default async function Home() {
       <Image
         src="/value-prop.png"
         alt="logo"
-        width={150}
-        height={150}
+        width={120}
+        height={120}
         className="absolute right-40 top-40"
       />
       <div className="flex flex-col items-center mx-50 pt-10 border-orange-300 border-dashed">
